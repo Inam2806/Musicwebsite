@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(226, 160, 74);
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.menu-bar{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none; 
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: green;
+}
+.active,.menu-bar ul li:hover{
+    background: rgb(23, 23, 23);
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(23, 23, 23);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white; 
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgb(72, 173, 72);
+}
+
+.heading{
+    margin: 30px 0 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.playlist-card-img{
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.playlist ul{
+    display: inline-flex;
+    list-style: none; 
+    color: white;
+}
+.playlist ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.playlist ul li a{
+    text-decoration: none;
+    color: green;
+}
+.playlist ul li:hover{
+    background: rgb(23, 23, 23);
+    border-radius: 5px;
+}
+a{
+    text-align: center;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+}
