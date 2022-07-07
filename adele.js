@@ -16,7 +16,7 @@ let songs = [
     {songName: "One Direction - Night Changes", filePath: "adele/songs/1.mp3", coverPath: "covers/4.jpg"},
     {songName: "Alec Benjamin - Let Me Down Slowly", filePath: "adele/songs/1.mp3", coverPath: "covers/5.jpg"},
     {songName: "Alan Walker & Ava Max - Alone, Pt. II", filePath: "adele/songs/1.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "adele/songs/1.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "adele/songs/1.mp3", coverPath: "covers/8.jpg"},
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "adele/songs/1.mp3", coverPath: "covers/8.jpg"},
     {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "adele/songs/1.mp3", coverPath: "covers/9.jpg"},
     {songName: "Na Jaana - Salam-e-Ishq", filePath: "adele/songs/1.mp3", coverPath: "covers/10.jpg"},
